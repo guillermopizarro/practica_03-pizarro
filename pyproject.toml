@@ -1,0 +1,19 @@
+[project]
+name = "practica-03-pizarro"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+authors = [
+    { name = "Guillermo Pizarro", email = "gpizarro@espol.edu.ec" }
+]
+requires-python = ">=3.12"
+dependencies = [
+    "agy>=1.1.0",
+]
+
+[project.scripts]
+practica-03-pizarro = "practica_03_pizarro:main"
+
+[build-system]
+requires = ["uv_build>=0.12.18,<0.13.0"]
+build-backend = "uv_build"

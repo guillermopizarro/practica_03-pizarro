@@ -51,3 +51,4 @@ Registro de pruebas manuales y automatizadas realizadas sobre la implementación
 - **Inferior al cero absoluto:** Al ingresar `-300 C`, muestra `Temperatura inferior al cero absoluto`.
 - **Misma escala:** `25 C` a `C` retorna `25.00 C`.
 - **Persistencia de estado:** Cada conversión o error reinicia el estado; un error no conserva ni muestra resultados de conversiones previas.
+

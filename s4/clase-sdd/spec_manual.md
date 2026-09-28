@@ -4,11 +4,11 @@
 Convertir una temperatura entre Celsius, Fahrenheit y Kelvin para consultar su equivalencia en otra escala.
 
 ## Criterios de aceptación
-- [ ] Permite ingresar una temperatura y seleccionar las unidades de origen y destino entre Celsius (C), Fahrenheit (F) y Kelvin (K).
-- [ ] Convierte entre las tres escalas usando C = (F - 32) × 5/9, F = C × 9/5 + 32, K = C + 273.15 y C = K - 273.15; para F ↔ K combina esas fórmulas sin redondeos intermedios. Referencias verificables: 0 C → 32.00 F; 32 F → 0.00 C; 0 C → 273.15 K; 273.15 K → 0.00 C; 32 F → 273.15 K; 273.15 K → 32.00 F.
-- [ ] Muestra cada resultado válido con exactamente dos decimales y la unidad de destino; por ejemplo, 100 C → 212.00 F.
-- [ ] Rechaza entradas inferiores al cero absoluto según la unidad de origen: C < -273.15, F < -459.67 o K < 0. Muestra «Temperatura inferior al cero absoluto» y no presenta un resultado de conversión.
-- [ ] Después de una conversión o un error, permite realizar otra conversión sin reiniciar el programa y sin conservar un resultado anterior como si correspondiera a la entrada actual.
+- [x] Permite ingresar una temperatura y seleccionar las unidades de origen y destino entre Celsius (C), Fahrenheit (F) y Kelvin (K).
+- [x] Convierte entre las tres escalas usando C = (F - 32) × 5/9, F = C × 9/5 + 32, K = C + 273.15 y C = K - 273.15; para F ↔ K combina esas fórmulas sin redondeos intermedios. Referencias verificables: 0 C → 32.00 F; 32 F → 0.00 C; 0 C → 273.15 K; 273.15 K → 0.00 C; 32 F → 273.15 K; 273.15 K → 32.00 F.
+- [x] Muestra cada resultado válido con exactamente dos decimales y la unidad de destino; por ejemplo, 100 C → 212.00 F.
+- [x] Rechaza entradas inferiores al cero absoluto según la unidad de origen: C < -273.15, F < -459.67 o K < 0. Muestra «Temperatura inferior al cero absoluto» y no presenta un resultado de conversión.
+- [x] Después de una conversión o un error, permite realizar otra conversión sin reiniciar el programa y sin conservar un resultado anterior como si correspondiera a la entrada actual.
 
 ## Casos borde
 - Entrada vacía o formada únicamente por espacios → mostrar «Ingrese una temperatura» y no convertir.

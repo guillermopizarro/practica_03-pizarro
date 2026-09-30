@@ -125,10 +125,10 @@
 
 **Purpose**: Usability refinements, shortcuts and end-to-end validation
 
-- [ ] T021 [P] Add package script entry points for `conversor` and `conversor-cli` in `pyproject.toml`
-- [ ] T022 [P] Implement keyboard shortcut `<Return>` in Tkinter window in `src/conversor/gui.py`
-- [ ] T023 Run full test suite validation via `uv run python -m unittest discover -s tests -p "test_*.py"`
-- [ ] T024 Validate end-to-end scenarios per `quickstart.md` in PowerShell
+- [X] T021 [P] Add package script entry points for `conversor` and `conversor-cli` in `pyproject.toml`
+- [X] T022 [P] Implement keyboard shortcut `<Return>` in Tkinter window in `src/conversor/gui.py`
+- [X] T023 Run full test suite validation via `uv run python -m unittest discover -s tests -p "test_*.py"`
+- [X] T024 Validate end-to-end scenarios per `quickstart.md` in PowerShell
 
 ---
 
